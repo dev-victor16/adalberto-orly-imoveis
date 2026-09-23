@@ -91,7 +91,6 @@ function renderProperties(properties) {
       <article class="property-card" data-id="${prop.id}">
         <div class="property-thumb">
           <img src="${prop.image}" alt="${prop.title}" loading="lazy">
-          <span class="property-badge">${prop.tag || prop.type}</span>
           <span class="property-purpose-tag">${purposeLabel}</span>
         </div>
 
@@ -107,7 +106,7 @@ function renderProperties(properties) {
           <h3 class="property-title">${prop.title}</h3>
 
           <div class="property-features">
-            ${specsHtml || '<span style="font-size:0.8125rem;color:var(--color-text-muted);">Consulte especificações completas</span>'}
+            ${specsHtml || '<span style="font-size:0.8125rem;color:var(--color-text-muted);">Consulte especificações</span>'}
           </div>
 
           <div class="property-footer">
