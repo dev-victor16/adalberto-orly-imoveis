@@ -1,0 +1,14 @@
+# Temporary and scraper files
+reference_dump.html
+create_repo.ps1
+push_github.ps1
+*.log
+
+# Node dependencies
+node_modules/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

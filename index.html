@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adalberto Orly Corretor de Imóveis | 32 Anos de Tradição em Ibirité e RMBH</title>
+  
+  <meta name="description" content="Imobiliária com 32 anos de tradição em Ibirité, Bonfim e Região Metropolitana de Belo Horizonte. Casas, apartamentos, lotes, imóveis comerciais e chácaras com assessoria jurídica e avaliação precisa.">
+  <meta name="keywords" content="imobiliária ibirité, corretor ibirité, adalberto orly, comprar casa ibirité, alugar imóvel ibirité, chácaras bonfim mg, lotes ibirité">
+  <meta name="author" content="Adalberto Orly Imóveis">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Adalberto Orly Corretor de Imóveis | Tradição e Confiança">
+  <meta property="og:description" content="32 anos comercializando imóveis com excelência e segurança jurídica em Ibirité e RMBH.">
+  <meta property="og:image" content="assets/img/hero-architecture.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/logo-ref.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Topbar Institucional -->
+  <aside class="topbar" aria-label="Informações de contato">
+    <div class="container topbar-content">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          Ibirité, Bonfim e Região Metropolitana de BH
+        </span>
+        <span class="topbar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          Seg a Sex: 08:30 às 18:00
+        </span>
+      </div>
+      <div class="topbar-right">
+        <span class="topbar-creci">CRECI/MG 11.240</span>
+        <a href="tel:31999553133" class="topbar-item topbar-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          (31) 99955-3133
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Header Principal Sticky -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-content">
+      <a href="#inicio" class="brand" aria-label="Página Inicial - Adalberto Orly Imóveis">
+        <div class="brand-symbol">AO</div>
+        <div class="brand-text">
+          <span class="brand-title">Adalberto Orly</span>
+          <span class="brand-subtitle">Corretor de Imóveis • Desde 1994</span>
+        </div>
+      </a>
+
+      <!-- Navegação Desktop -->
+      <nav class="main-nav" aria-label="Navegação Principal">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#imoveis" class="nav-link">Imóveis</a>
+        <a href="#chacaras" class="nav-link">Chácaras & Rurais</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#proprietarios" class="nav-link">Proprietários</a>
+        <a href="#simulador" class="nav-link">Simulador</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <!-- Ações do Header -->
+      <div class="header-actions">
+        <a href="https://api.whatsapp.com/send?phone=5531999553133&text=Ol%C3%A1!%20Gostaria%20de%20conversar%20sobre%20im%C3%B3veis%20em%20Ibirit%C3%A9%20e%20regi%C3%A3o." target="_blank" rel="noopener" class="btn-header-cta">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.53 1.771.82 2.791.82 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.806-5.768-5.806zm0 10.375c-.911 0-1.62-.249-2.34-.676l-.167-.099-1.58.414.421-1.54-.109-.174c-.47-.749-.718-1.472-.718-2.532 0-2.534 2.062-4.596 4.493-4.596 2.431 0 4.492 2.062 4.492 4.596 0 2.534-2.061 4.597-4.492 4.597z"/></svg>
+          Falar no WhatsApp
+        </a>
+
+        <!-- Botão Menu Mobile -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section Editorial -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero-content reveal">
+        <span class="hero-badge">Tradição & Segurança Jurídica</span>
+        <h1 class="hero-title">32 Anos Construindo Confiança no Mercado Imobiliário</h1>
+        <p class="hero-subtitle">
+          Assessoria completa e personalizada para compra, venda, locação e propriedades rurais em Ibirité, Bonfim e Região Metropolitana de Belo Horizonte.
+        </p>
+
+        <!-- Widget de Busca Integrada -->
+        <div class="search-widget" id="searchWidget">
+          <div class="search-tabs" role="tablist">
+            <button class="search-tab active" data-purpose="todos" role="tab">Todos os Imóveis</button>
+            <button class="search-tab" data-purpose="comprar" role="tab">Comprar</button>
+            <button class="search-tab" data-purpose="alugar" role="tab">Alugar</button>
+            <button class="search-tab" data-purpose="rural" role="tab">Chácaras & Sítios</button>
+          </div>
+
+          <form class="search-form" id="heroSearchForm" onsubmit="event.preventDefault(); filterFromHero();">
+            <div class="form-group">
+              <label class="form-label" for="heroType">Tipo de Imóvel</label>
+              <select id="heroType" class="form-select">
+                <option value="todos">Todos os Tipos</option>
+                <option value="Casa">Casa</option>
+                <option value="Apartamento">Apartamento</option>
+                <option value="Lote">Lote / Área Urbana</option>
+                <option value="Comercial">Imóvel Comercial</option>
+                <option value="Rural">Chácara / Sítio</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="heroLocation">Cidade / Região</label>
+              <select id="heroLocation" class="form-select">
+                <option value="todos">Todas as Regiões</option>
+                <option value="Ibirité">Ibirité (Geral)</option>
+                <option value="Jardim das Flores">Jardim das Flores</option>
+                <option value="Centro">Centro</option>
+                <option value="Bosque">Bosque</option>
+                <option value="Lago Azul">Lago Azul</option>
+                <option value="Bonfim">Bonfim / Rurais</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="heroPrice">Faixa de Valor</label>
+              <select id="heroPrice" class="form-select">
+                <option value="todos">Qualquer Valor</option>
+                <option value="ate-100k">Até R$ 100 mil</option>
+                <option value="100k-500k">R$ 100 mil a R$ 500 mil</option>
+                <option value="500k-1m">R$ 500 mil a R$ 1 milhão</option>
+                <option value="acima-1m">Acima de R$ 1 milhão</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="heroBedrooms">Quartos</label>
+              <select id="heroBedrooms" class="form-select">
+                <option value="0">Indiferente</option>
+                <option value="2">2+ Quartos</option>
+                <option value="3">3+ Quartos</option>
+                <option value="4">4+ Quartos</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn-search-submit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              Filtrar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Faixa Tipográfica de Autoridade (Sem cards repetitivos) -->
+  <section class="authority-ribbon" aria-label="Métricas e Pilares de Credibilidade">
+    <div class="container">
+      <div class="authority-strip">
+        <div class="authority-item">
+          <span class="authority-number">32</span>
+          <div class="authority-text">
+            Anos de Atuação Contínua
+            <small>Pioneirismo em Ibirité e RMBH</small>
+          </div>
+        </div>
+
+        <div class="authority-divider"></div>
+
+        <div class="authority-item">
+          <span class="authority-number">100%</span>
+          <div class="authority-text">
+            Segurança Jurídica
+            <small>Vistoria e certidões completas</small>
+          </div>
+        </div>
+
+        <div class="authority-divider"></div>
+
+        <div class="authority-item">
+          <span class="authority-number">CRECI</span>
+          <div class="authority-text">
+            Registro Oficial 11.240
+            <small>Ética e conformidade legal</small>
+          </div>
+        </div>
+
+        <div class="authority-divider"></div>
+
+        <div class="authority-item">
+          <span class="authority-number">R$ 0</span>
+          <div class="authority-text">
+            Avaliação Inicial Sem Custo
+            <small>Para proprietários parceiros</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Imóvel Protagonista (Destaque Assimétrico de Alto Nível) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-kicker">Seleção em Destaque</div>
+        <h2 class="section-title">Imóvel Protagonista</h2>
+        <p class="section-lead">Oportunidade residencial com acabamento superior e documentação rigorosamente regularizada para financiamento bancário imediato.</p>
+      </div>
+
+      <div class="featured-showcase reveal">
+        <div class="showcase-media">
+          <img src="assets/img/casa-jardim-flores.jpg" alt="Casa Residencial Jardim das Flores em Ibirité" class="showcase-img">
+          <span class="showcase-tag">Destaque Residencial</span>
+        </div>
+
+        <div class="showcase-content">
+          <div class="showcase-meta-top">
+            <span class="showcase-code">Cód. AO-397</span>
+            <span class="showcase-location">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Jardim das Flores, Ibirité - MG
+            </span>
+          </div>
+
+          <h3 class="showcase-title">Casa Linear com Quintal Amplo e 4 Vagas</h3>
+          <p class="showcase-desc">
+            Edificada em lote privativo de 360m², esta casa linear oferece sala integrada para dois ambientes com sanca em gesso, 3 quartos arejados (1 suíte com espaço para closet), banho social com ventilação natural e área externa gramada com potencial para área gourmet e piscina.
+          </p>
+
+          <div class="showcase-specs">
+            <div class="spec-item">
+              <span class="spec-value">360 m²</span>
+              <span class="spec-label">Área do Lote</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-value">3</span>
+              <span class="spec-label">Quartos (1 Suíte)</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-value">4</span>
+              <span class="spec-label">Vagas Garagem</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-value">2</span>
+              <span class="spec-label">Banhos</span>
+            </div>
+          </div>
+
+          <div class="showcase-footer">
+            <div class="showcase-price">
+              <span class="price-label">Valor de Venda</span>
+              <span class="price-value">R$ 800.000</span>
+            </div>
+
+            <a href="https://api.whatsapp.com/send?phone=5531999553133&text=Ol%C3%A1%20Adalberto!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20e%20agendar%20uma%20visita%20para%20a%20Casa%20no%20Jardim%20das%20Flores%20(C%C3%B3d.%20AO-397)." target="_blank" rel="noopener" class="btn-showcase-whatsapp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.53 1.771.82 2.791.82 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.806-5.768-5.806zm0 10.375c-.911 0-1.62-.249-2.34-.676l-.167-.099-1.58.414.421-1.54-.109-.174c-.47-.749-.718-1.472-.718-2.532 0-2.534 2.062-4.596 4.493-4.596 2.431 0 4.492 2.062 4.492 4.596 0 2.534-2.061 4.597-4.492 4.597z"/></svg>
+              Agendar Visita Exclusiva
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catálogo Inteligente com Filtros Vivos -->
+  <section class="section section-warm" id="imoveis">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-kicker">Catálogo Oficial</div>
+        <h2 class="section-title">Portfólio de Imóveis</h2>
+        <p class="section-lead">Explore nossa seleção ativa de casas, apartamentos, áreas urbanas, imóveis corporativos e propriedades rurais com documentação verificada.</p>
+      </div>
+
+      <!-- Controles de Filtros Dinâmicos -->
+      <div class="catalog-controls">
+        <div class="filter-categories" id="filterPills">
+          <button class="filter-btn active" data-filter="todos">Todos</button>
+          <button class="filter-btn" data-filter="Casa">Casas</button>
+          <button class="filter-btn" data-filter="Apartamento">Apartamentos</button>
+          <button class="filter-btn" data-filter="Lote">Lotes & Áreas</button>
+          <button class="filter-btn" data-filter="Comercial">Comerciais</button>
+          <button class="filter-btn" data-filter="Rural">Chácaras & Sítios</button>
+        </div>
+
+        <div class="filter-secondary">
+          <select id="filterPurpose" class="filter-select" onchange="applyFilters()">
+            <option value="todos">Todas as Finalidades</option>
+            <option value="comprar">Comprar</option>
+            <option value="alugar">Alugar</option>
+            <option value="rural">Propriedades Rurais</option>
+          </select>
+
+          <select id="filterLocation" class="filter-select" onchange="applyFilters()">
+            <option value="todos">Todos os Bairros</option>
+            <option value="Jardim das Flores">Jardim das Flores</option>
+            <option value="Centro">Centro</option>
+            <option value="Bosque">Bosque</option>
+            <option value="Lago Azul">Lago Azul</option>
+            <option value="Bonfim">Bonfim / Caetano José</option>
+          </select>
+
+          <select id="filterOrder" class="filter-select" onchange="applyFilters()">
+            <option value="padrao">Ordenação Padrão</option>
+            <option value="menor-preco">Menor Preço</option>
+            <option value="maior-preco">Maior Preço</option>
+            <option value="maior-area">Maior Área</option>
+          </select>
+
+          <span class="catalog-count" id="catalogCount">Carregando imóveis...</span>
+        </div>
+      </div>
+
+      <!-- Grade Dinâmica de Imóveis -->
+      <div class="properties-grid" id="propertiesGrid">
+        <!-- Renderizado dinamicamente via app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Especial: Chácaras, Sítios & Lazer Rural (Diferencial Regional Forte) -->
+  <section class="section" id="chacaras">
+    <div class="container">
+      <div class="rural-banner reveal">
+        <div class="rural-media">
+          <img src="assets/img/chacara-rural.jpg" alt="Chácaras e Sítios em Bonfim e RMBH">
+        </div>
+        <div class="rural-content">
+          <span class="rural-tag">Tradição & Vida no Campo</span>
+          <h2 class="rural-title">Chácaras, Sítios e Propriedades Rurais em Bonfim e Região</h2>
+          <p class="rural-text">
+            Com mais de 30 anos de proximidade com as áreas rurais de Bonfim (Caetano José), Ibirité e entorno metropolitano, conectamos você ao refúgio perfeito para descanso familiar, produção rural ou locação de temporada.
+          </p>
+          <ul class="rural-points">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Propriedades a partir de R$ 69.000 com fácil acesso
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Opções com nascentes, pomares formados e vistas exuberantes
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Contratos seguros e conferência criteriosa de limites e matrículas
+            </li>
+          </ul>
+          <a href="https://api.whatsapp.com/send?phone=5531999553133&text=Ol%C3%A1%20Adalberto!%20Tenho%20interesse%20em%20ch%C3%A1caras%20e%20s%C3%ADtios%20na%20regi%C3%A3o%20de%20Bonfim%20e%20Ibirit%C3%A9." target="_blank" rel="noopener" class="btn-rural-cta">
+            Consultar Opções Rurais no WhatsApp
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Institucional: História & Consultoria Ética -->
+  <section class="section section-warm" id="sobre">
+    <div class="container">
+      <div class="about-layout">
+        <div class="about-media-wrapper reveal">
+          <img src="assets/img/consultoria-office.jpg" alt="Atendimento consultivo e jurídico na Adalberto Orly Imóveis" class="about-photo">
+          <div class="about-seal">
+            <div class="seal-years">32 Anos</div>
+            <div class="seal-text">de Tradição & Solidez</div>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <div class="section-kicker">Nossa Trajetória</div>
+          <h2 class="section-title">A Imobiliária que Conhece Cada Canto de Ibirité</h2>
+          <p class="about-story">
+            Fundada pelo corretor <strong>Adalberto Orly</strong>, nossa trajetória se confunde com o próprio desenvolvimento urbano e econômico de Ibirité e das cidades vizinhas da RMBH. Em mais de três décadas de atuação contínua, participamos da concretização de milhares de negócios imobiliários, intermediando lares para famílias e sedes estratégicas para empresas locais e regionais.
+          </p>
+          <p class="about-story">
+            Diferente de plataformas automáticas e impessoais, nosso trabalho baseia-se no contato humano e na assessoria técnica meticulosa: desde a precificação honesta e conferência cartorária até a formalização de contratos sem surpresas ou letras miúdas.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar-item">
+              <h3 class="pillar-title">Conhecimento Local Profundo</h3>
+              <p class="pillar-desc">Avaliação criteriosa bairro a bairro, entendendo o valor real de cada rua de Ibirité.</p>
+            </div>
+            <div class="pillar-item">
+              <h3 class="pillar-title">Rigor Documental</h3>
+              <p class="pillar-desc">Conferência completa de certidões cíveis, fiscais e registros antes do aperto de mão.</p>
+            </div>
+            <div class="pillar-item">
+              <h3 class="pillar-title">Assessoria Bancária</h3>
+              <p class="pillar-desc">Acompanhamento completo de financiamento habitacional junto à Caixa e bancos privados.</p>
+            </div>
+            <div class="pillar-item">
+              <h3 class="pillar-title">Transparência Total</h3>
+              <p class="pillar-desc">Comunicação clara e direta entre comprador, vendedor, locador e locatário.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Proprietários: Anuncie seu Imóvel -->
+  <section class="section" id="proprietarios">
+    <div class="container">
+      <div class="owners-container reveal">
+        <div class="owners-info">
+          <div class="section-kicker">Para Proprietários</div>
+          <h2 class="section-title">Quer Vender ou Alugar com Segurança e Rapidez?</h2>
+          <p class="section-lead">
+            Disponibilizamos nossa base ativa de clientes qualificados e 32 anos de autoridade de mercado para dar ao seu imóvel a visibilidade e a valorização que ele merece.
+          </p>
+
+          <div class="owners-steps">
+            <div class="step-row">
+              <div class="step-num">1</div>
+              <div class="step-info">
+                <h4>Avaliação Mercadológica Precisa</h4>
+                <p>Analisamos a realidade de preços praticados em Ibirité e RMBH para não desvalorizar seu patrimônio nem deixá-lo parado meses a fio.</p>
+              </div>
+            </div>
+
+            <div class="step-row">
+              <div class="step-num">2</div>
+              <div class="step-info">
+                <h4>Divulgação Estratégica e Qualificada</h4>
+                <p>Apresentação profissional com fotos nítidas e direcionamento para compradores e inquilinos com real capacidade financeira.</p>
+              </div>
+            </div>
+
+            <div class="step-row">
+              <div class="step-num">3</div>
+              <div class="step-info">
+                <h4>Contratos Blindados e Segurança</h4>
+                <p>Vistoria fotográfica minuciosa e formalização contratual com garantias locatícias seguras e suporte até a entrega das chaves.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="owners-form-card">
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; color: var(--color-primary); margin-bottom: 8px;">Cadastre seu Imóvel</h3>
+          <p style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 20px;">Preencha os dados básicos e entraremos em contato para uma avaliação sem compromisso.</p>
+
+          <form id="ownerForm" onsubmit="event.preventDefault(); submitOwnerLead();">
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label" for="ownerName">Seu Nome Completo</label>
+                <input type="text" id="ownerName" class="form-input" placeholder="Ex: Roberto Silva" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="ownerPhone">WhatsApp / Telefone</label>
+                <input type="tel" id="ownerPhone" class="form-input" placeholder="(31) 99999-9999" required>
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label" for="ownerPurpose">Pretende</label>
+                <select id="ownerPurpose" class="form-select">
+                  <option value="Vender">Vender o Imóvel</option>
+                  <option value="Alugar">Alugar o Imóvel</option>
+                  <option value="Avaliar">Apenas Avaliar</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="ownerType">Tipo</label>
+                <select id="ownerType" class="form-select">
+                  <option value="Casa">Casa</option>
+                  <option value="Apartamento">Apartamento</option>
+                  <option value="Lote">Lote / Terreno</option>
+                  <option value="Comercial">Imóvel Comercial</option>
+                  <option value="Chácara">Chácara / Sítio</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-grid full">
+              <div class="form-group">
+                <label class="form-label" for="ownerLocation">Bairro / Cidade do Imóvel</label>
+                <input type="text" id="ownerLocation" class="form-input" placeholder="Ex: Jardim das Flores, Ibirité" required>
+              </div>
+            </div>
+
+            <button type="submit" class="btn-form-submit">
+              Solicitar Contato do Corretor
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simulador de Financiamento Habitacional -->
+  <section class="section section-warm" id="simulador">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-kicker">Planejamento Financeiro</div>
+        <h2 class="section-title">Simulador de Financiamento</h2>
+        <p class="section-lead">Calcule uma estimativa de entrada e parcelas mensais para planejar a aquisição da sua casa própria ou investimento imobiliário.</p>
+      </div>
+
+      <div class="simulator-box reveal">
+        <div class="sim-inputs">
+          <!-- Valor do Imóvel -->
+          <div class="sim-control-group">
+            <div class="sim-label-row">
+              <span class="sim-label">Valor do Imóvel</span>
+              <span class="sim-current-val" id="simValDisplay">R$ 500.000</span>
+            </div>
+            <input type="range" id="simValRange" class="sim-slider" min="100000" max="2000000" step="20000" value="500000" oninput="updateSim()">
+          </div>
+
+          <!-- Entrada -->
+          <div class="sim-control-group">
+            <div class="sim-label-row">
+              <span class="sim-label">Entrada (Mínimo 20%)</span>
+              <span class="sim-current-val" id="simDownDisplay">R$ 100.000 (20%)</span>
+            </div>
+            <input type="range" id="simDownRange" class="sim-slider" min="20" max="80" step="5" value="20" oninput="updateSim()">
+          </div>
+
+          <!-- Prazo -->
+          <div class="sim-control-group">
+            <div class="sim-label-row">
+              <span class="sim-label">Prazo do Financiamento</span>
+              <span class="sim-current-val" id="simYearsDisplay">30 anos (360 meses)</span>
+            </div>
+            <input type="range" id="simYearsRange" class="sim-slider" min="10" max="35" step="5" value="30" oninput="updateSim()">
+          </div>
+        </div>
+
+        <div class="sim-results">
+          <div>
+            <div class="sim-result-head">Parcela Inicial Estimada (Sistema SAC)</div>
+            <div class="sim-installment-value" id="simInstallmentDisplay">R$ 3.840</div>
+
+            <div class="sim-result-details">
+              <div class="sim-detail-row">
+                <span>Valor Financiado:</span>
+                <strong id="simFinancedDisplay">R$ 400.000</strong>
+              </div>
+              <div class="sim-detail-row">
+                <span>Taxa Média Estimada:</span>
+                <span>9,99% a.a. + TR</span>
+              </div>
+              <div class="sim-detail-row">
+                <span>Renda Familiar Recomendada:</span>
+                <strong id="simIncomeDisplay">R$ 12.800</strong>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class="sim-note">
+              * Valores aproximados calculados com base nas tabelas habitacionais vigentes. A concessão de crédito, juros e exigência de entrada estão sujeitas à análise cadastral bancária e ao perfil do comprador.
+            </p>
+            <a href="https://api.whatsapp.com/send?phone=5531999553133&text=Ol%C3%A1%20Adalberto!%20Fiz%20uma%20simula%C3%A7%C3%A3o%20no%20site%20e%20gostaria%20de%20saber%20como%20aprovar%20meu%20cr%C3%A9dito%20imobili%C3%A1rio." target="_blank" rel="noopener" style="margin-top: 16px; display: block; text-align: center; font-weight: 600; font-size: 0.875rem; color: var(--color-primary); text-decoration: underline;">
+              Deseja aprovar seu crédito conosco? Converse com nossa equipe &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dúvidas Frequentes (FAQ Limpo e Funcional) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-kicker">Transparência e Respostas</div>
+        <h2 class="section-title">Perguntas Frequentes</h2>
+        <p class="section-lead">Esclareça dúvidas comuns sobre o processo de compra, venda, locação e documentação imobiliária em Ibirité e região.</p>
+      </div>
+
+      <div class="faq-grid reveal">
+        <div class="faq-item open">
+          <div class="faq-header" onclick="toggleFaq(this)">
+            <h3 class="faq-question">Quais documentos são exigidos para comprar um imóvel financiado?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-content">
+            Para compradores pessoa física, são necessários: RG e CPF (do titular e cônjuge, se houver), certidão de estado civil atualizada, comprovante de residência recente e comprovantes de renda dos últimos 3 meses (holerites, declaração de IRPF com recibo de entrega ou extratos bancários). Cuidamos de toda a montagem da pasta bancária para agilizar a aprovação junto ao correspondente da Caixa.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header" onclick="toggleFaq(this)">
+            <h3 class="faq-question">Como funciona a avaliação de um imóvel antes de colocá-lo à venda?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-content">
+            Realizamos uma vistoria técnica presencial avaliando o estado de conservação, acabamento, posição solar, padrão da vizinhança e, principalmente, os valores reais recentemente transacionados no mesmo bairro. Dessa forma, chegamos a um valor competitivo que protege seu patrimônio e atrai compradores qualificados.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header" onclick="toggleFaq(this)">
+            <h3 class="faq-question">Vocês atendem compras de chácaras e sítios em Bonfim e cidades vizinhas?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-content">
+            Sim! Bonfim (especialmente distritos como Caetano José), Sarzedo, Brumadinho e Betim fazem parte da nossa área tradicional de atuação há mais de 30 anos. Dispomos de opções que vão desde terrenos rurais de R$ 69.000 para lazer até fazendinhas estruturadas e chácaras completas para eventos.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header" onclick="toggleFaq(this)">
+            <h3 class="faq-question">Como alugar um imóvel sem a necessidade de fiador tradicional?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-content">
+            Trabalhamos com modalidades modernas e desburocratizadas, como o Seguro Fiança e a garantia via cartão de crédito (CredPago), em que a análise de crédito é feita em poucos minutos pelo WhatsApp, eliminando a dependência de parentes ou bens como fiadores.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé Institucional Completo -->
+  <footer class="site-footer" id="contato">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <div class="brand-symbol">AO</div>
+            <div class="brand-text">
+              <span class="brand-title">Adalberto Orly</span>
+              <span class="brand-subtitle" style="color: #cbd5e1;">Corretor de Imóveis</span>
+            </div>
+          </div>
+          <p>
+            Desde 1994 intermediando negócios com integridade, segurança jurídica e dedicação humana em Ibirité, Bonfim e RMBH.
+          </p>
+          <div style="font-size: 0.8125rem; color: #94a3b8;">
+            <strong>CRECI/MG 11.240</strong> • Triângulo Imóveis
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navegação Rápida</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Página Inicial</a></li>
+            <li><a href="#imoveis">Catálogo de Imóveis</a></li>
+            <li><a href="#chacaras">Chácaras em Bonfim</a></li>
+            <li><a href="#sobre">Nossos 32 Anos</a></li>
+            <li><a href="#proprietarios">Cadastrar Imóvel</a></li>
+            <li><a href="#simulador">Simulador Habitacional</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Tipos de Imóveis</h4>
+          <ul class="footer-links">
+            <li><a href="#imoveis" onclick="filterByPurpose('comprar')">Casas & Lotes à Venda</a></li>
+            <li><a href="#imoveis" onclick="filterByPurpose('alugar')">Imóveis para Locação</a></li>
+            <li><a href="#imoveis" onclick="filterByPurpose('rural')">Chácaras e Sítios Rurais</a></li>
+            <li><a href="#imoveis" onclick="filterByCategory('Comercial')">Galpões & Prédios Comerciais</a></li>
+            <li><a href="#imoveis" onclick="filterByCategory('Lote')">Áreas Urbanas & Terrenos</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Atendimento Direto</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <div>
+              <strong>(31) 99955-3133</strong>
+              <div style="font-size: 0.75rem; color: #94a3b8;">Ligação e WhatsApp</div>
+            </div>
+          </div>
+
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <div>
+              <strong>trianguloimoveis.mg@uol.com.br</strong>
+              <div style="font-size: 0.75rem; color: #94a3b8;">E-mail institucional</div>
+            </div>
+          </div>
+
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <div>
+              <strong>Ibirité - MG</strong>
+              <div style="font-size: 0.75rem; color: #94a3b8;">Atendimento presencial com hora marcada</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Adalberto Orly Corretor de Imóveis. Todos os direitos reservados.</div>
+        <div>Desenvolvido com excelência técnica e arquitetura contemporânea.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Drawer Lateral Mobile -->
+  <div class="drawer-backdrop" id="drawerBackdrop" onclick="closeDrawer()"></div>
+  <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Menu Mobile">
+    <div class="drawer-header">
+      <div class="brand">
+        <div class="brand-symbol">AO</div>
+        <div class="brand-text">
+          <span class="brand-title">Adalberto Orly</span>
+          <span class="brand-subtitle">Desde 1994</span>
+        </div>
+      </div>
+      <button class="drawer-close" onclick="closeDrawer()" aria-label="Fechar Menu">&times;</button>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="#inicio" onclick="closeDrawer()">Início</a>
+      <a href="#imoveis" onclick="closeDrawer()">Catálogo de Imóveis</a>
+      <a href="#chacaras" onclick="closeDrawer()">Chácaras em Bonfim</a>
+      <a href="#sobre" onclick="closeDrawer()">Sobre Nós</a>
+      <a href="#proprietarios" onclick="closeDrawer()">Cadastrar Imóvel</a>
+      <a href="#simulador" onclick="closeDrawer()">Simulador</a>
+      <a href="#contato" onclick="closeDrawer()">Fale Conosco</a>
+    </nav>
+
+    <div class="drawer-footer">
+      <div style="font-size: 0.8125rem; color: var(--color-text-muted);">
+        <strong>CRECI/MG 11.240</strong> • (31) 99955-3133
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=5531999553133&text=Ol%C3%A1!%20Estou%20pelo%20celular%20e%20gostaria%20de%20falar%20com%20o%20Adalberto." target="_blank" rel="noopener" class="btn-drawer-whatsapp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.53 1.771.82 2.791.82 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.806-5.768-5.806zm0 10.375c-.911 0-1.62-.249-2.34-.676l-.167-.099-1.58.414.421-1.54-.109-.174c-.47-.749-.718-1.472-.718-2.532 0-2.534 2.062-4.596 4.493-4.596 2.431 0 4.492 2.062 4.492 4.596 0 2.534-2.061 4.597-4.492 4.597z"/></svg>
+        Falar no WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- Botão Flutuante do WhatsApp -->
+  <a href="https://api.whatsapp.com/send?phone=5531999553133&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20im%C3%B3veis%20de%20Ibirit%C3%A9%20e%20regi%C3%A3o." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Abrir conversa no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.53 1.771.82 2.791.82 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.806-5.768-5.806zm0 10.375c-.911 0-1.62-.249-2.34-.676l-.167-.099-1.58.414.421-1.54-.109-.174c-.47-.749-.718-1.472-.718-2.532 0-2.534 2.062-4.596 4.493-4.596 2.431 0 4.492 2.062 4.492 4.596 0 2.534-2.061 4.597-4.492 4.597z"/></svg>
+  </a>
+
+  <!-- Modal de Detalhes e Galeria do Imóvel -->
+  <div class="property-modal" id="propertyModal" role="dialog" aria-modal="true" aria-label="Detalhes do Imóvel">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal()" aria-label="Fechar">&times;</button>
+      <div class="modal-photo-main">
+        <img id="modalImg" src="" alt="Foto Principal">
+      </div>
+      <div class="modal-body">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; flex-wrap: wrap; gap: 12px;">
+          <div>
+            <span id="modalCode" class="showcase-code">AO-397</span>
+            <span id="modalLocation" style="font-size: 0.875rem; color: var(--color-text-muted); margin-left: 8px;"></span>
+            <h3 id="modalTitle" style="font-family: var(--font-heading); font-size: 1.625rem; font-weight: 700; color: var(--color-primary); margin-top: 6px;"></h3>
+          </div>
+          <div>
+            <span style="font-size: 0.75rem; color: var(--color-text-muted); text-transform: uppercase; display: block;">Valor</span>
+            <div id="modalPrice" style="font-family: var(--font-heading); font-size: 1.75rem; font-weight: 700; color: var(--color-primary);"></div>
+          </div>
+        </div>
+
+        <div id="modalSpecs" style="display: flex; gap: 20px; padding: 14px 0; border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); margin-bottom: 20px; font-size: 0.875rem; color: var(--color-text-muted); flex-wrap: wrap;"></div>
+
+        <p id="modalDesc" style="font-size: 0.9375rem; color: var(--color-text-muted); line-height: 1.65; margin-bottom: 24px;"></p>
+
+        <h4 style="font-family: var(--font-heading); font-size: 1.0625rem; font-weight: 700; color: var(--color-primary); margin-bottom: 12px;">Destaques deste Imóvel:</h4>
+        <ul id="modalFeatures" style="list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; margin-bottom: 28px; font-size: 0.875rem; color: var(--color-text-main);"></ul>
+
+        <div style="display: flex; justify-content: flex-end; gap: 14px; flex-wrap: wrap;">
+          <button onclick="closeModal()" style="padding: 12px 24px; background: transparent; border: 1px solid var(--color-border); border-radius: var(--radius-sm); cursor: pointer; font-weight: 600;">Fechar</button>
+          <a id="modalWhatsAppBtn" href="#" target="_blank" rel="noopener" class="btn-showcase-whatsapp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.53 1.771.82 2.791.82 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.806-5.768-5.806zm0 10.375c-.911 0-1.62-.249-2.34-.676l-.167-.099-1.58.414.421-1.54-.109-.174c-.47-.749-.718-1.472-.718-2.532 0-2.534 2.062-4.596 4.493-4.596 2.431 0 4.492 2.062 4.492 4.596 0 2.534-2.061 4.597-4.492 4.597z"/></svg>
+            Tirar Dúvidas no WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/properties-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
