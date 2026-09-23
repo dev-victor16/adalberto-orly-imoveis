@@ -1,6 +1,6 @@
 /* ==========================================================================
    ADALBERTO ORLY CORRETOR DE IMÓVEIS — DESIGN SYSTEM & DIREÇÃO EDITORIAL
-   Atuação em Ibirité, Bonfim e RMBH desde 1994 • CRECI/MG 11.240
+   Atuação em Ibirité, Bonfim e RMBH desde 1994 • CRECI/MG 11.253
    Estilo: Humanizado, Editorial, Autoral & Zero Clichês de IA
    ========================================================================== */
 
@@ -168,48 +168,34 @@ button, input, select, textarea {
   height: 80px;
 }
 
-/* Identidade Visual / Logo Pessoal */
+/* Identidade Visual / Logo da Empresa */
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
 }
 
-.brand-symbol {
-  width: 40px;
-  height: 40px;
-  background: var(--color-primary);
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-heading);
-  font-size: 1.125rem;
-  font-weight: 700;
+.site-logo {
+  height: 52px;
+  width: auto;
+  max-width: 230px;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-logo-container {
+  background-color: #ffffff;
+  padding: 8px 16px;
   border-radius: var(--radius-sm);
-  letter-spacing: -0.02em;
+  display: inline-block;
+  margin-bottom: 14px;
 }
 
-.brand-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.brand-title {
-  font-family: var(--font-heading);
-  font-size: 1.1875rem;
-  font-weight: 700;
-  color: var(--color-primary);
-  letter-spacing: -0.01em;
-  line-height: 1.2;
-}
-
-.brand-subtitle {
-  font-size: 0.6875rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--color-accent);
-  font-weight: 600;
+.footer-logo {
+  height: 44px;
+  width: auto;
+  max-width: 220px;
+  display: block;
+  object-fit: contain;
 }
 
 /* Navegação Desktop */
@@ -288,16 +274,31 @@ button, input, select, textarea {
   height: 26px;
 }
 
-/* --- Hero Section Humano e Natural --- */
+/* --- Hero Section com Paisagem Responsiva (Desktop & Celular) --- */
 .hero {
   position: relative;
   min-height: 580px;
   padding: 70px 0 80px;
   display: flex;
   align-items: center;
-  background: linear-gradient(to right, rgba(14, 23, 33, 0.95) 0%, rgba(14, 23, 33, 0.82) 58%, rgba(14, 23, 33, 0.5) 100%),
-              url('../assets/img/hero-architecture.jpg') center center / cover no-repeat;
+  background-image: 
+    linear-gradient(to right, rgba(14, 23, 33, 0.94) 0%, rgba(14, 23, 33, 0.82) 55%, rgba(14, 23, 33, 0.45) 100%),
+    url('../assets/img/hero-desktop.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-image: 
+      linear-gradient(to bottom, rgba(14, 23, 33, 0.92) 0%, rgba(14, 23, 33, 0.86) 60%, rgba(14, 23, 33, 0.94) 100%),
+      url('../assets/img/hero-mobile.jpg');
+    background-position: center top;
+    padding: 48px 0 56px;
+    min-height: auto;
+  }
 }
 
 .hero-content {
@@ -345,25 +346,34 @@ button, input, select, textarea {
   margin-bottom: 34px;
 }
 
-/* --- Widget de Busca Integrada (Sleek Tabs) --- */
+/* --- Widget de Busca Integrada (Sleek Tabs sem corte) --- */
 .search-widget {
   background: #ffffff;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-floating);
   overflow: hidden;
-  max-width: 940px;
+  max-width: 960px;
+  width: 100%;
 }
 
 .search-tabs {
   display: flex;
   background-color: #f1ebd8;
   border-bottom: 1px solid var(--color-border);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.search-tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .search-tab {
-  flex: 1;
-  padding: 12px 18px;
-  font-size: 0.875rem;
+  flex: 1 0 auto;
+  min-width: 140px;
+  padding: 13px 22px;
+  font-size: 0.9375rem;
   font-weight: 600;
   color: var(--color-text-muted);
   background: transparent;
@@ -372,7 +382,11 @@ button, input, select, textarea {
   text-align: center;
   transition: all var(--transition-fast);
   border-bottom: 3px solid transparent;
+  white-space: nowrap;
+  word-break: keep-all;
+  letter-spacing: -0.01em;
 }
+
 
 .search-tab:hover {
   color: var(--color-primary);
@@ -676,7 +690,7 @@ button, input, select, textarea {
 }
 
 .filter-btn {
-  padding: 7px 16px;
+  padding: 8px 18px;
   font-size: 0.875rem;
   font-weight: 500;
   background-color: #ffffff;
@@ -685,6 +699,9 @@ button, input, select, textarea {
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: all var(--transition-fast);
+  white-space: nowrap;
+  word-break: keep-all;
+  flex-shrink: 0;
 }
 
 .filter-btn:hover {

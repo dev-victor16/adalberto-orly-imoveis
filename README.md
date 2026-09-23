@@ -6,7 +6,7 @@
 
 ## 🏛️ Sobre o Projeto
 
-Plataforma imobiliária contemporânea desenvolvida com direção de arte editorial de alto padrão, eliminando clichês de inteligência artificial e templates pré-fabricados. O projeto valoriza o patrimônio e a história real de mais de três décadas da **Adalberto Orly Imóveis** (associada à Triângulo Imóveis — CRECI/MG 11.240).
+Plataforma imobiliária contemporânea desenvolvida com direção de arte editorial de alto padrão, eliminando clichês de inteligência artificial e templates pré-fabricados. O projeto valoriza o patrimônio e a história real de mais de três décadas da **Adalberto Orly Imóveis** (associada à Triângulo Imóveis — CRECI/MG 11.253).
 
 ---
 
@@ -60,7 +60,7 @@ Plataforma imobiliária contemporânea desenvolvida com direção de arte editor
 ## 📞 Informações de Contato
 
 - **Responsável:** Adalberto Orly (Corretor de Imóveis)
-- **Registro:** CRECI/MG 11.240
+- **Registro:** CRECI/MG 11.253
 - **Telefone / WhatsApp:** (31) 99955-3133
 - **E-mail:** trianguloimoveis.mg@uol.com.br
 - **Atuação:** Ibirité, Bonfim, Betim, Contagem, Sarzedo, Brumadinho e Grande BH

@@ -290,14 +290,14 @@ const PROPERTIES_DATA = [
 
 // Dados institucionais e canais oficiais
 const SITE_CONFIG = {
-  name: "Adalberto Orly Imóveis",
-  tagline: "32 anos de tradição, segurança jurídica e credibilidade em Ibirité e RMBH",
-  creci: "CRECI/MG 11.240",
+  name: "Adalberto Orly Corretor de Imóveis",
+  tagline: "Atuação em Ibirité, Bonfim e RMBH desde 1994",
+  creci: "CRECI/MG 11.253",
   phone: "(31) 99955-3133",
   phoneClean: "5531999553133",
   whatsappMessage: "Olá! Gostaria de falar com o corretor Adalberto Orly sobre imóveis em Ibirité e região.",
   email: "trianguloimoveis.mg@uol.com.br",
-  address: "Rua do Comércio Central, Ibirité - MG, CEP 32400-000",
+  address: "Ibirité - MG, CEP 32400-000",
   hours: "Segunda a Sexta: 08:30 às 18:00 | Sábado: 08:30 às 12:30",
   citiesCovered: ["Ibirité", "Bonfim", "Betim", "Contagem", "Brumadinho", "Sarzedo", "Belo Horizonte"]
 };
